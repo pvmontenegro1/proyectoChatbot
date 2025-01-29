@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      username: pamela
+      password: pamela123
+      host: 10.40.25.166
+      port: 27017
+      database: chatbot
+      authentication-database: admin
+server:
+  port: 8089

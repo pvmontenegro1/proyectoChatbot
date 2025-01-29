@@ -1,0 +1,42 @@
+.chat-room-container {
+    height: 100vh;
+    background-color: #c788cc;
+    color: #fff;
+  }
+  
+  .chat-room-container .user-list {
+    width: 25%;
+    background-color: #5c7ac4;
+  }
+  
+  .chat-room-container .user-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .chat-room-container .user-item:hover {
+    background-color: #36b5a9;
+  }
+  
+  .chat-room-container .chat-window {
+    width: 75%;
+    background-color: #44979a;
+  }
+  
+  .chat-room-container .chat-area {
+    height: 80%;
+    background-color: #1dadcd;
+    border: 1px solid #0f3460;
+  }
+  
+  .chat-room-container .chat-input input {
+    background-color: #162447;
+    border: 1px solid #0f3460;
+    color: #fff;
+  }
+  
+  .chat-room-container .chat-input button {
+    background-color: #45e7dc;
+    border: none;
+  }
+  

@@ -1,0 +1,90 @@
+/* Contenedor principal */
+.user-register-container {
+  height: 100vh;
+  background: linear-gradient(135deg, #d43369, #d3326b);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Encabezado */
+.user-register-header {
+  color: #b71c1c;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Formulario */
+.user-register-form {
+  background-color: #fff3f3;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #f8bbd0;
+}
+
+.user-register-form label {
+  color: #d81b60;
+  font-weight: bold;
+}
+
+/* Botón principal */
+.user-register-form .btn-primary {
+  background-color: #f48fb1;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  transition: background 0.3s ease-in-out;
+  border-radius: 8px;
+}
+
+.user-register-form .btn-primary:hover {
+  background-color: #f06292;
+}
+
+/* Tabla */
+.user-register-table {
+  background-color: #fff3f3;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-register-table th,
+.user-register-table td {
+  color: #d81b60;
+  padding: 12px;
+}
+
+.user-register-table th {
+  background-color: #f8bbd0;
+}
+
+/* Botones de acción */
+.user-register-table .btn-warning {
+  background-color: #ffcc80;
+  border: none;
+  color: #6d4c41;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}
+
+.user-register-table .btn-warning:hover {
+  background-color: #ffa726;
+}
+
+.user-register-table .btn-danger {
+  background-color: #ef9a9a;
+  border: none;
+  color: #b71c1c;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}
+
+.user-register-table .btn-danger:hover {
+  background-color: #e57373;
+}
