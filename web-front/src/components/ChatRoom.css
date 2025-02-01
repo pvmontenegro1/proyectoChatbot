@@ -40,3 +40,8 @@
     border: none;
   }
   
+  .user-list{
+    max-height: 900px;
+    overflow-y: auto;
+    padding-right: 5px;
+  }

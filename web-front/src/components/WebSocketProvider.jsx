@@ -60,7 +60,7 @@ export const WebSocketProvider = ({ children }) => {
   const connect = (nickname, fullname) => {
     setNickname(nickname);
     setFullname(fullname);
-    const client = createWebSocketClient('http://localhost:8089/ws');
+    const client = createWebSocketClient('http://localhost:2173/ws');
     setStompClient(client);
     setConnected(true);
   };

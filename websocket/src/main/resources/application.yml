@@ -3,7 +3,7 @@ spring:
     mongodb:
       username: pamela
       password: pamela123
-      host: 10.40.25.166
+      host: localhost
       port: 27017
       database: chatbot
       authentication-database: admin

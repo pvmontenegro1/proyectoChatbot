@@ -22,7 +22,7 @@ const Login = ({ connect }) => {
   useEffect(() => {
     if (isConnected) {
       const fetchUsers = () => {
-        fetch('http://localhost:8089/users')
+        fetch('http://localhost:2173/users')
           .then(response => response.json())
           .then(data => {
             const filteredUsers = data.filter(user => user.nickName !== nickname);
@@ -39,7 +39,7 @@ const Login = ({ connect }) => {
 
   const handleUserSelect = (user) => {
     setSelectedUser(user);
-    fetch(`http://10.40.25.166/messages/${nickname}/${user.nickName}`)
+    fetch(`http://localhost:2173/messages/${nickname}/${user.nickName}`)
       .then(response => response.json())
       .then(data => setMessages(data))
       .catch(error => console.error('Error fetching messages:', error));
